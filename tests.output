@@ -1,0 +1,18 @@
+{"protocolVersion":"0.1.1","runnerVersion":"1.25.15","pid":93420,"type":"start","time":0}
+{"suite":{"id":0,"platform":"vm","path":"/Users/thinnakritkooaksorn/Documents/flutter/my_wallet/test/features/authentication/data/cubit/auth_cubit_test.dart"},"type":"suite","time":0}
+{"test":{"id":1,"name":"loading /Users/thinnakritkooaksorn/Documents/flutter/my_wallet/test/features/authentication/data/cubit/auth_cubit_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":0}
+{"count":1,"time":3,"type":"allSuites"}
+
+[{"event":"test.startedProcess","params":{"vmServiceUri":"http://127.0.0.1:50887/oagpMfEu6GE=/","observatoryUri":"http://127.0.0.1:50887/oagpMfEu6GE=/"}}]
+{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":2553}
+{"group":{"id":2,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":4,"line":null,"column":null,"url":null},"type":"group","time":2556}
+{"group":{"id":3,"suiteID":0,"parentID":2,"name":"AuthCubit","metadata":{"skip":false,"skipReason":null},"testCount":4,"line":33,"column":3,"url":"file:///Users/thinnakritkooaksorn/Documents/flutter/my_wallet/test/features/authentication/data/cubit/auth_cubit_test.dart"},"type":"group","time":2557}
+{"test":{"id":4,"name":"AuthCubit initial state is AuthStateInitial","suiteID":0,"groupIDs":[2,3],"metadata":{"skip":false,"skipReason":null},"line":34,"column":5,"url":"file:///Users/thinnakritkooaksorn/Documents/flutter/my_wallet/test/features/authentication/data/cubit/auth_cubit_test.dart"},"type":"testStart","time":2557}
+{"testID":4,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2599}
+{"test":{"id":5,"name":"AuthCubit emits [AuthStateInProgress, AuthStateAuthenticated] on successful login","suiteID":0,"groupIDs":[2,3],"metadata":{"skip":false,"skipReason":null},"line":38,"column":5,"url":"file:///Users/thinnakritkooaksorn/Documents/flutter/my_wallet/test/features/authentication/data/cubit/auth_cubit_test.dart"},"type":"testStart","time":2600}
+{"testID":5,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2611}
+{"test":{"id":6,"name":"AuthCubit emits [AuthStateInProgress, AuthStateFailure] on login failure","suiteID":0,"groupIDs":[2,3],"metadata":{"skip":false,"skipReason":null},"line":55,"column":5,"url":"file:///Users/thinnakritkooaksorn/Documents/flutter/my_wallet/test/features/authentication/data/cubit/auth_cubit_test.dart"},"type":"testStart","time":2611}
+{"testID":6,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2613}
+{"test":{"id":7,"name":"AuthCubit emits [AuthStateInitial] on logout","suiteID":0,"groupIDs":[2,3],"metadata":{"skip":false,"skipReason":null},"line":72,"column":5,"url":"file:///Users/thinnakritkooaksorn/Documents/flutter/my_wallet/test/features/authentication/data/cubit/auth_cubit_test.dart"},"type":"testStart","time":2613}
+{"testID":7,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2615}
+{"success":true,"type":"done","time":2925}
